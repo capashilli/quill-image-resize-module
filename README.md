@@ -5,6 +5,11 @@ A module for Quill rich text editor to allow images to be resized.
 Also see [quill-image-drop-module](https://github.com/kensnyder/quill-image-drop-module),
 a module that enables copy-paste and drag/drop for Quill.
 
+### Changes from Original
+
+This fork uses CSS classes, rather than inline styles, which can help if your site goes through a future redesign. However, that also means that the toolbar buttons will appear to do nothing at all if you haven't implemented styles for the relevant CSS classes.
+
+
 ## Demo
 
 [Plunker](https://plnkr.co/edit/gq708AOrSBOWSlHcFslG?p=preview)
